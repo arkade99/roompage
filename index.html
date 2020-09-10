@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Rental</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>
+    .arka{ list-style-type: none;
+  background-color: rgb(36, 173, 174);
+  font-family:"Segoe UI" ,Arial ,sans-serif;
+}
+
+li a:hover:not(.active) {
+  background-color: #fff;
+}
+.carousel-item
+{
+  height: 400px;
+  width: 450px;
+}
+.carousel-item img
+{
+  width: 300%;
+    height: 100%;
+
+}
+.row{
+  padding-top: 30px;
+  padding-right: 25px;
+  padding-bottom: 30px;
+  padding-left: 40px;
+}
+
+  #more {display: none;}
+  #more1 {display: none;}
+  #more2 {display: none;}
+.btten {
+  border: none;
+  color: white;
+  border-radius: 50%;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.bnleft{
+border: none;
+  color: white;
+  float: right;
+  font-size: 20px;
+border-radius: 50%;}
+.bn5{background-color: #eb00ff;
+float: right;
+border: none;
+  color: white;
+  font-size: 15px;
+  border-radius:25px;
+  }
+.xyz{
+  border-radius: 35px;
+}
+.mno{ display: inline; }
+.btten2 {
+  border: none;
+  color: white;
+  border-radius: 50%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  padding: 10px 15px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.lstcol{background-color: rgba(255, 255, 0, 0.4)}
+.qqq{padding-top:50px; }
+
+  </style>
+
+
+</head>
+<body>
+
+<div class=" text-center" style="margin-top:5px;margin-bottom:5px;height:30px;"></div>
+<!-- This is navbar -->
+<nav class="navbar navbar-expand-sm sticky-top navbar-dark arka"> 
+  <a class="navbar-brand"><img src="logo.png" style="height:30px;float:left;"> </a>
+      
+      <button class="navbar-toggler" type="button" data-toggle="collapse"
+            data-target="#collapse_Navbar"> 
+        <span class="navbar-toggler-icon"></span> 
+      </button> 
+      
+      <div class="collapse navbar-collapse" id="collapse_Navbar"> 
+        <ul class="navbar-nav"> 
+          <li class="nav-item " > 
+            <a class="nav-link" href="#"  style="color:#000;"><i class="fa fa-fw fa-home"></i>Home</a></li></div> 
+      <li style="float:right;"><a class="active" style="color: #000;" href="#"><i class="fa fa-fw fa-user-circle-o"></i>Log In / Sign up</a> 
+    </nav> 
+<!-- End of upper nav -->
+<div class="container-fluid" style="margin-top:30px;">
+<div id="demo" class="carousel slide " data-ride="carousel" >
+
+  <!-- Indicators -->
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+    <li data-target="#demo" data-slide-to="3"></li>
+    <li data-target="#demo" data-slide-to="4"></li>
+  </ul>
+  
+  <!-- The slideshow -->
+  
+    <div id="demo" class="carousel slide" data-ride="carousel">
+
+  <!-- Indicators -->
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+  </ul>
+  
+  <!-- The slideshow -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="1.jpeg"  height="150%">
+    </div>
+    <div class="carousel-item">
+      <img src="2.jpeg"  >
+    </div>
+    <div class="carousel-item">
+      <img src="7.jpg"  >
+    </div>
+        <div class="carousel-item">
+      <img src="10.jpg"  >
+    </div>
+    <div class="carousel-item">
+      <img src="11.jpg"  >
+    </div>
+  </div>
+  
+  <!-- Left and right controls -->
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+</div>
+  </div>
+  
+</div>
+<br>
+<br>
+
+  <div class="row" style="background-color: rgba(208, 210, 208, 0.2)">
+
+    <div class="col-sm-8">
+      <h1><strong>Avi SheltOwn Pg  </strong> </h1>
+      <p style="color: rgba(0, 0, 0, 0.6)"><b><i class="fa fa-map-marker" style="color: rgba(255, 165, 0, 0.7);font-size:30px;" aria-hidden="true"></i> South Extension 1, Delhi, Delhi</b></p>
+      <br><p><i>The COVID19 pandemic has made us all understand the importance of sanitization and not take it for granted. Rest assured, our properties are following a number of hygiene measures like disinfecting surfaces with high-quality disinfectants, following social distance, minimizing physical contact in interactions, using protective gear like masks, gloves, etc. and more.</i></p><br>
+      <h2><strong>Description</strong></h2>
+      <p>A property listed by SheltOwn for your comfortable stay.</p><p>This property includes all the basic amenities without any restriction and no interference.</p><p>We make sure that there is no brokerage or middle man involved in this booking.</p><p>SheltOwn provides 24*7 support on this property.</p><p>Rent is accepted online for this property.</p>
+      <h4><b>Special Features</b></h4>
+      <p><i>The rooms follow a certain colour scheme, and they are decorated accordingly.<br>This makes them bright and colourful. There is also extra seating space in the rooms.</i></p>
+      <div class="card col-sm-8 xyz" style="background-color: rgba(0, 197, 228, 0.6);">
+        <br>
+        <h4><b>Amenities</b></h4><!-- Final-->
+    <div class="card-body">
+      <p><i class="fa fa-wifi"> wifi</i></p><p><i class="fa fa-snowflake-o"> AC</i></p>
+      <span id="dots">...</span><span id="more">
+      <p><i class="fa fa-bed"> Bed</i></p><p><i class="fa fa-check"> Attached Bathroom</i></p>
+      <p><i class="fa fa-plug"> Power Backup</i></p><p><i class="fa fa-check">  R.O.</i></p><p><i class="fa fa-check"> Laundry</i></p><p><i class="fa fa-check"> Balcony</i></p><p><i class="fa fa-check">  CCTV</i></p> </span></p>
+      <b><a style="color: red" onclick="myFunction()" id="myBtn"><b>Read more</b></a></b>
+
+      </div></div>
+      <br>
+      <div class="card col-sm-8 xyz" style="background-color: rgba(255, 255, 0, 0.6)" >
+        <br>
+        <h4><b>Know your new home</b></h4>
+        <div class="card-body">
+      <ul class="list-group">
+    <li class="list-group-item lstcol">House Keeping <button class=" bnleft" style="background-color: #4CAF50;">Daily</button></li>
+    <li class="list-group-item lstcol">Owner Stays at property<button class=" bnleft" style="background-color: #4CAF50;">No</button></li>
+    <span id="dots1">...</span><span id="more1">
+    <li class="list-group-item lstcol">Common Areas<button class=" bnleft" style="background-color: #4CAF50;">YES</button></li>
+    <li class="list-group-item lstcol">Non-Veg Allowed<button class=" bnleft" style="background-color: #4CAF50;">YES</button></li>
+    <li class="list-group-item lstcol">Visiters Allowed<button class=" bnleft" style="background-color: #4CAF50;">No</button></li>
+    <li class="list-group-item lstcol">Drinking and Smoking Allowed<button class=" bnleft" style="background-color: #4CAF50;">No</button></li>
+    <li class="list-group-item lstcol">Total Beds<button class=" bnleft" style="background-color: #4CAF50;">20</button></li>
+  <li class="list-group-item lstcol">Max. bed in a room<button class=" bnleft" style="background-color: #4CAF50;">No</button></li>
+<li class="list-group-item lstcol">Landmarks Nearby<button class="bn5" > Near Bengali Sweet </button></li></span>
+<br>
+    <b><a style="color: red" onclick="myFunction1()" id="myBtn1"><b>Read more</b></a></b>
+  </ul>
+      
+      </div></div>
+<br>
+      <div class="card col-sm-8 xyz" style="background-color: rgb(238, 130, 238,0.5);">
+        <br>
+        <h4><b>How SheltOwn is helping me</b></h4>
+    <div class="card-body">
+       <p>For additional safety of everyone, our partners and their staff wears masks, uses sanitisers and maintains proper social distancing.<span id="dots2">...</span><span id="more2">
+During these hard times, we understand how important sanitisation and cleanliness are to you.
+We make sure sanitisation of Floors, Rooms and Linens using good quality disinfectants.
+To book you just need to pay the booking amount now. Pay the rest while you move-in and this property accepts online payments through SheltOwn.
+We do not own this property, we are providing a platform to book it meanwhile making sure thaat each SheltOwn standards are being followed.
+We never charge any Brokerage from anyone.</p>
+      <b><a style="color: red" onclick="myFunction2()" id="myBtn2"><b>Read more</b></a></b>
+      </div></div>
+    </div>
+    <br><br>
+    <!-- This is side card -->
+    <div class="card col-sm-3 xyz " style="background-color: rgba(187, 255, 255, 1)">
+    <div class="card-body  ">
+       <h2 class="card-title"><b>Rent Details</b></h2>
+      <p>Rent: <i class="fa fa-inr" aria-hidden="true"></i>  9000 </p> 
+  <p>Security Deposit: <i class="fa fa-inr" aria-hidden="true"></i>  9000</p>
+<p>Booking Amount: <i class="fa fa-inr" aria-hidden="true"></i> 2250</p>
+<br>
+<strong><button type="submit" class="btn btn-success">Book Now</button>
+<br><br>
+<h2>More</h2>
+<button  type="submit"  class="btn btten2" style="background-color: rgba(255, 23, 0, 0.7)">Pg/hostel</button><br>
+<button  type="submit"  class="btn btten2" style="background-color: rgba(255, 23, 0, 0.7)">Male only</button>
+<br>
+<button  type="submit" class="btn btten2"  style="background-color: rgba(255, 23, 0, 0.7)">Elect. Not Incl</button>
+<button  type="submit" class="btn btten2"  style="background-color: rgba(255, 23, 0, 0.7)">Fully Furnished</button>
+<button  type="submit" class="btn btten2"  style="background-color: rgba(255, 23, 0, 0.7)">Avaliable now</button>
+<button  type="submit" class="btn btten2"  style="background-color: rgba(255, 23, 0, 0.7)">Meals Not Incl</button>
+    </div>
+    </div>
+  </div>
+</div>
+
+<footer class="site-footer">
+    <div class="container-fluid">
+      <div class="row" style="background-color: rgba(0, 0, 0)">
+    <div class="col-sm-8"style="color: #fff">
+      <h4>About</h4>
+          <p class="text-justify" >We are a strong team focused on building a network where we could serve you regarding all your needs of having your own shelter.
+            We are bound to provide you the best possible care and support which helps you meet your demands.
+            Our core values- “Honesty, Authenticity, Concerns for Customer’s Privacy and Safety” are all closely interwoven into the fibre of our efforts.
+            We help you to find your match, book rental homes of choice across Indian cities.
+          </p>
+          <p>Accept our warm SheltOwn hug.</p>
+    </div>
+    <div class="col-sm-2">
+      <ul class="footer-links">
+            <strong style="color: #4CAF50;"><li><a style="color: #4CAF50;" href="#">About Us</a></li>
+            <li><a style="color: #4CAF50;" href="#/">Policy</a></li>
+            <li><a style="color: #4CAF50;" href="#">FAQs</a></li>
+            <li><a style="color: #4CAF50;" href="#">SheltOwn+</a></li>
+            <li><a style="color: #4CAF50;" href="#">SheltOwn Family+</a></li>
+            <li><a style="color: #4CAF50;" href="#">Contact Us</a></li></strong>
+          </ul>
+    </div>
+    <div class="col-sm-2">
+      <ul class="footer-links">
+            <strong style="color: #4CAF50;"><li><a style="color: #4CAF50;" href="#">Testimonials</a></li>
+            <li><a style="color: #4CAF50;" href="#">Blogs</a></li>
+            <li><a style="color: #4CAF50;" href="#">Join our Team</a></li>
+            <li><a style="color: #4CAF50;" href="#">List your Property</a></li>
+            <li><a style="color: #4CAF50;" href="#">Become our Service Partner</a></li>
+            <li><a style="color: #4CAF50;" href="#">SiteMap</a></li></strong>
+          </ul>
+    </div>
+  </div>
+</div>
+<div class="jumbotron text-center" style="margin-bottom:0; font-size: 20px;">
+  <h2><strong>Devoloped By</strong></h2>
+  <p>My Name: Arkaprava De</p>
+  <p>My gmail:<a href="arkapravade99@gmail.com"> arkapravade99@gmail.com</a>  </p>
+</div>
+</footer>
+
+</body>
+</html>
+<script>
+function myFunction() {
+  var dots = document.getElementById("dots");
+  var moreText = document.getElementById("more");
+  var btnText = document.getElementById("myBtn");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more"; 
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less"; 
+    moreText.style.display = "inline";
+  }
+}
+function myFunction1() {
+  var dots = document.getElementById("dots1");
+  var moreText = document.getElementById("more1");
+  var btnText = document.getElementById("myBtn1");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more"; 
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less"; 
+    moreText.style.display = "inline";
+  }
+}
+function myFunction2() {
+  var dots = document.getElementById("dots2");
+  var moreText = document.getElementById("more2");
+  var btnText = document.getElementById("myBtn2");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more"; 
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less"; 
+    moreText.style.display = "inline";
+  }
+}
+</script>
+
